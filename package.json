@@ -113,7 +113,15 @@
 		"typeorm": "^0.3.25",
 		"typescript-json-schema": "^0.50.1",
 		"wretch": "^2.11.0",
-		"ws": "^8.18.3"
+		"ws": "^8.18.3",
+		"@yukikaze-bot/erlpack": "^1.0.1",
+		"jimp": "^1.6.0",
+		"mysql": "^2.18.1",
+		"nodemailer-mailgun-transport": "^2.1.5",
+		"nodemailer-mailjet-transport": "github:n0script22/nodemailer-mailjet-transport",
+		"nodemailer-sendgrid-transport": "github:Maria-Golomb/nodemailer-sendgrid-transport",
+		"pg": "^8.16.3",
+		"sqlite3": "^5.1.7"
 	},
 	"_moduleAliases": {
 		"@spacebar/api": "dist/api",
@@ -123,13 +131,6 @@
 		"@spacebar/webrtc": "dist/webrtc"
 	},
 	"optionalDependencies": {
-		"@yukikaze-bot/erlpack": "^1.0.1",
-		"jimp": "^1.6.0",
-		"mysql": "^2.18.1",
-		"nodemailer-mailgun-transport": "^2.1.5",
-		"nodemailer-mailjet-transport": "github:n0script22/nodemailer-mailjet-transport",
-		"nodemailer-sendgrid-transport": "github:Maria-Golomb/nodemailer-sendgrid-transport",
-		"pg": "^8.16.3",
-		"sqlite3": "^5.1.7"
+
 	}
 }
